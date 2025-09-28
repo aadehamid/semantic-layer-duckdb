@@ -9,4 +9,10 @@ dependencies = [
     "boring-semantic-layer[visualization]",
     "altair[all]",
     "marimo[recommended]>=0.16.2",
+    "ibis-framework[duckdb,examples,exmaples]>=10.8.0",
+]
+
+[dependency-groups]
+dev = [
+    "rich>=14.1.0",
 ]
