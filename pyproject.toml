@@ -8,4 +8,5 @@ dependencies = [
     "boring-semantic-layer",
     "boring-semantic-layer[visualization]",
     "altair[all]",
+    "marimo[recommended]>=0.16.2",
 ]
