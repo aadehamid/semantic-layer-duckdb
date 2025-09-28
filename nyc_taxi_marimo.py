@@ -32,6 +32,7 @@ def _():
 
     import ibis
     from boring_semantic_layer import SemanticModel
+    # from rich import print
 
     con = ibis.duckdb.connect(":memory:")
     ## Or simply change one line to switch to Cloud Version of DuckDB with MotherDuck:
@@ -113,7 +114,7 @@ def _():
         print(df_access)
 
 
-    
+
         # Charting example
         png_bytes = expr.chart(
             format="png",  # Add format parameter here
@@ -168,4 +169,3 @@ def _():
 
 if __name__ == "__main__":
     app.run()
-
